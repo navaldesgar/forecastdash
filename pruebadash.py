@@ -1266,9 +1266,7 @@ def get_base64_image(image_path):
 
 
 def render_topbar(title, subtitle):
-    logo_base64 = get_base64_image(
-        r"C:\Users\nancy.valdes\Desktop\Dashboard RT y Forecast\Logotipo-Negativo-horizontal.png"
-    )
+    logo_base64 = get_base64_image("Logotipo-Negativo-horizontal.png")
 
     st.markdown(
         f"""
